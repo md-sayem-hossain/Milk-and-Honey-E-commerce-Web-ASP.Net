@@ -1,0 +1,149 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo, #logofooter {
+    color: #0e476b;
+    font-weight: 600;
+    font-family: 'Edu TAS Beginner', cursive;
+    background: -webkit-linear-gradient(#fac906, #f18811);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    color: #f9a826
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+    background-color: #211f1f;
+    border: solid 1px #211f1f;
+}
+
+    .btn-primary:hover {
+        background: -webkit-linear-gradient(#fac906, #f18811);
+        border: 1px solid #fac906;
+    }
+
+.btn-light, .btn-light:hover {
+    background: -webkit-linear-gradient(#fac906, #f18811);
+    color: white;
+}
+
+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:focus {
+    color: #211f1f;
+    border: solid 1px #211f1f !important;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #211f1f !important;
+        color: white;
+    }
+
+.nav-link {
+    color: #211f1f !important;
+}
+
+    .nav-link:hover {
+        color: white !important;
+        background: -webkit-linear-gradient(#fac906, #f18811);
+        border-radius: 13px;
+    }
+
+
+.form-control:focus {
+    border-color: #f9a826 !important;
+    box-shadow: none
+}
+
+.FormatRadioButtonList label {
+    margin-right: 15px;
+}
+
+/* footer */
+footer {
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #f8f9fa;
+}
+
+h3 {
+    overflow: hidden;
+    text-align: center;
+}
+
+    h3:before,
+    h3:after {
+        background-color: #f9a826;
+        content: "";
+        display: inline-block;
+        height: 1.5px;
+        position: relative;
+        vertical-align: middle;
+        width: 13%;
+    }
+
+    h3:before {
+        right: 0.5em;
+        margin-left: -96%;
+    }
+
+    h3:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+
+.FormatRadioButtonList label {
+    margin-left: 10px;
+}
+
+ul > li {
+    padding: 4px
+}
+
+    ul > li:hover {
+        color: #f18811;
+        cursor: pointer
+    }
+
+
+.listfooter > li {
+    font-size: 13px;
+}
+
+.policy > div {
+    padding: 4px
+}
+
+
+.card:hover {
+    border: 1px solid #f9a826;
+}
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .hid-mg {
+        display: none;
+    }
+
+    img {
+        height: 12rem;
+        width: 12rem;
+    }
+}

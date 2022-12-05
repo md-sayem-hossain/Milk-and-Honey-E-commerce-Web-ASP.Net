@@ -1,0 +1,123 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa
+}
+
+#logo, #logofooter {
+    color: #0e476b;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    color: #0e476b;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #79bd12 !important;
+    border: solid 1px #79bd12 !important;
+}
+
+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:focus {
+    color: #79bd12;
+    border: solid 1px #79bd12 !important;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #79bd12 !important;
+        color: white;
+    }
+
+.nav-link {
+    color: #79bd12 !important;
+}
+
+.nav-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #0e476b;
+        transition: width .3s;
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+        transition: width .3s;
+    }
+
+.form-control:focus {
+    border-color: #79bd12 !important;
+    box-shadow: inset 1px 1px 1px rgba(121, 189, 18), 1px 1px 1px rgba(121, 189, 18) !important;
+}
+
+.FormatRadioButtonList label {
+    margin-right: 15px;
+}
+
+
+
+.card {
+    padding: 2% 7%;
+    border-radius: 8px;
+    color: #646771;
+    background-color: #f8f9fa;
+}
+
+    .card:hover {
+        border-radius: 8px;
+        border: 1px solid #79bd12;
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+    ul > li {
+        padding: 4px
+    }
+
+        ul > li:hover {
+            color: #79bd12;
+            cursor: pointer
+        }
+
+.social > i {
+    padding: 1%;
+    font-size: 15px
+}
+
+    .social > i:hover {
+        color: #79bd12;
+        cursor: pointer
+    }
+
+.policy > div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #79bd12
+}
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+
+
+
